@@ -13,7 +13,7 @@ function mostrar() {
   
   let contImportados = 0;
   let acumPrecioImportados =0;
-  let PrecioImportados;
+  let precioImportados;
   let precioTotal = 0;
   let iva;
   
@@ -119,7 +119,7 @@ function mostrar() {
   
     //Punto B
     
-    PrecioImportados = acumPrecioImportados / contImportados;
+    precioImportados = acumPrecioImportados / contImportados;
   
     
     iva = precioTotal * 0.21;
@@ -129,7 +129,7 @@ function mostrar() {
   
     document.write("A) El tipo de juguete mas vendido" +  jugueteMasVendido + "<br>");
     
-    document.write("B) El promedio de precio de los juguetes importados" +  PrecioImportados +"<br>");
+    document.write("B) El promedio de precio de los juguetes importados" +  precioImportados +"<br>");
   
     document.write( "C) La recaudacion total : " + precioTotal  + "<br>");
   
